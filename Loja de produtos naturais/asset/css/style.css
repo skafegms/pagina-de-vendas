@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 20px 5%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo span{
+    font-weight: 700;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+section img{
+    width: 100%;
+}
+
+.promotion-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    padding: 30px 5%;
+}
+
+.promotion-header span{
+    font-weight: 700;
+    color: #161616;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #eee;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.product span{
+    font-weight: 700;
+}
+
+.price{
+ color:#5ca720
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 5%;
+    
+}
+
+footer{
+    background: #eee;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #ddd;
+    padding: 30px 5%;
+}
+.top-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.top-left a{
+    font-weight: 700;
+    color:#161616 ;
+    text-decoration: none;
+}
+
+.top-right{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.top-right span{
+    font-weight: 700;
+    color: #161616;
+}
+.footer-news-letter{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    
+}
+.fotter-button{
+    height: 40px;
+    width: 100px;
+    border: 1px solid #eee;
+    background-color: #5ca720;
+    color: white;
+    font-weight: 700;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+.fotter-button:hover{
+    background: #44880cd3;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    border-top: 2px solid #ddd ;
+}
+.footer-bottom, .bottom-right{
+    display: flex;
+    gap: 10px;
+}
+.footer-img{
+
+    height: 20px;
+
+}
